@@ -67,6 +67,7 @@ public class LoadingConfig {
     public boolean fixResizableFullscreen;
     public boolean fixResourcePackOpening;
     public boolean fixTimeCommandWithGC;
+    public boolean fixTravellersGearKeybindHandler;
     public boolean fixUnfocusedFullscreen;
     public boolean fixUrlDetection;
     public boolean fixVanillaUnprotectedGetBlock;
@@ -188,6 +189,7 @@ public class LoadingConfig {
         fixGuiGameOver = config.get(Category.FIXES.toString(), "fixGuiGameOver", true, "Fix Game Over GUI buttons disabled if switching fullscreen").getBoolean();
         fixHasteArmSwing = config.get(Category.FIXES.toString(), "fixHasteArmSwing", true, "Fix arm not swinging when having too much haste").getBoolean();
         fixTimeCommandWithGC = config.get(Category.FIXES.toString(), "fixTimeCommandWithGC", true, "Fix time commands with GC").getBoolean();
+        fixTravellersGearKeybindHandler = config.get(Category.FIXES.toString(), "fixTravellersGearKeybindHandler", true, "Fix TPS lag from Traveller's gear keybind handler").getBoolean();
         fixBibliocraftPackets = config.get(Category.FIXES.toString(), "fixBibliocraftPackets", true, "Fix Biblocraft packet exploits").getBoolean();
         fixZTonesPackets = config.get(Category.FIXES.toString(), "fixZTonesPackets", true, "Fix ZTones packet exploits").getBoolean();
         fixHopperHitBox = config.get(Category.FIXES.toString(), "fixHopperHitBox", true, "Fix vanilla hopper hit box").getBoolean();

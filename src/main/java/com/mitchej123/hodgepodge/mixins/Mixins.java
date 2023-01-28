@@ -521,6 +521,13 @@ public enum Mixins {
             .setApplyIf(() -> Common.config.fixExtraUtilitiesItemRendering)
             .addTargetedMod(TargetedMod.EXTRA_UTILITIES)),
 
+    // Traveller's Gear
+    FIX_TRAVELLERSGEAR_KEYBIND_HANDLER(new Builder("Fix Traveller's Gear keybind handler")
+            .addMixinClasses("travellersgear.MixinKeyHandler_FixTPSLag")
+            .setSide(Side.CLIENT)
+            .setApplyIf(() -> Common.config.fixTravellersGearKeybindHandler)
+            .addTargetedMod(TargetedMod.TRAVELLERSGEAR)),
+
     // Witchery
     DISABLE_POTION_ARRAY_EXTENDER(new Builder("Disable Witchery potion array extender")
             .addMixinClasses("witchery.MixinPotionArrayExtender")
