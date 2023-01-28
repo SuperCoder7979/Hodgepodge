@@ -10,7 +10,7 @@ dependencies {
     implementation("curse.maven:biomes-o-plenty-220318:2499612")
     implementation("curse.maven:cofh-core-69162:2388751")
     implementation("curse.maven:extra-utilities-225561:2264384")
-    implementation("curse.maven:travellers-gear-224440:2262113")
+    implementation("curse.maven:travellers-gear-224440:2262112")
     implementation("net.industrial-craft:industrialcraft-2:2.2.828-experimental:dev")
     implementation(deobf("https://edge.forgecdn.net/files/2234/410/witchery-1.7.10-0.24.1.jar"))
     implementation(deobf("https://mediafiles.forgecdn.net/files/2423/369/BiblioCraft%5bv1.11.7%5d%5bMC1.7.10%5d.jar"))
